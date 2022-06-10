@@ -1,0 +1,54 @@
+<!--
+    Brandon Davis
+    5/29/22
+    CSC102
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UAT Space Program</title>
+    <!--CSS link-->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!--JavaScript link-->
+    <script src="blastOff.js"> </script>
+
+</head>
+<body>
+    <!--The section the logo sits in-->
+    <div class="wrapper">
+        <img id="UAT_logo" src="UATspaceLogo-2.jpg" alt="UAT Space Logo">
+    </div>
+
+    <!--The section the header, main text, and button sits in-->
+    <div class="wrapper">
+        <main>
+                <header>
+                    <h1>UAT Space Program</h1>
+                </header>
+                <!--Text above button-->
+                <div id="test_text">
+                    <br />
+                    <p id="initiateWelcome"></p>
+                    <p id="initiateBadge"></p>
+                </div>
+                <!--Blastoff button-->
+                <div id="button">  
+                    <!--Calls for the startTheCount function-->
+                    <button id="button_style" type="button" onclick="startTheCountDown();">Get Ready for Blastoff!</button>   
+                </div>
+                                        
+        </main>
+
+    </div>
+    <!--Bubble that appears when you click the Blastoff button-->
+    <div id="countDownWindow">
+        <!--Paragraph that holds the countdown numbers-->
+        <p id="countDownNumbers"></p>
+    </div>
+    
+</body>
+</html>
