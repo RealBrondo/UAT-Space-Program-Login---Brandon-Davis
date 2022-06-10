@@ -1,6 +1,6 @@
     /* 
     Brandon Davis
-    5/29/22
+    6/9/22
     CSC102   
     */
     var firstAndLastName = prompt("Type your first and last name");
